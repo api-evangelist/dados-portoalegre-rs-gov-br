@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://dados.portoalegre.rs.gov.br/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/dados-portoalegre-rs-gov-br-domain-security.yml
   - type: Website
     url: https://dados.portoalegre.rs.gov.br
   - type: Documentation
