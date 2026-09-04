@@ -27,6 +27,7 @@ accessModel:
   confidence: medium
   source:
   - plans
+  - {url: 'https://dados.portoalegre.rs.gov.br', status: 301, note: 'declared website redirects to https://dadosabertos.poa.br/ — a different registrable domain (rs.gov.br -> poa.br), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dados-portoalegre-rs-gov-br.png
